@@ -6,8 +6,6 @@ public class Veiculo {
 	private String modelo;
 	private String marca;
 	private int ano;
-	private long quilometragem;
-	
 	
 	
 	public String getPlaca() {
@@ -34,18 +32,14 @@ public class Veiculo {
 	public void setAno(int ano) {
 		this.ano = ano;
 	}
-	public long getQuilometragem() {
-		return quilometragem;
-	}
-	public void setQuilometragem(long quilometragem) {
-		this.quilometragem = quilometragem;
-	}
+
+	
 	
 
 	@Override
 	public String toString() {
-		return "Veiculo [placa=" + placa + ", modelo=" + modelo
-				+ ", marca=" + marca + ", ano=" + ano + ", quilometragem=" + quilometragem +"]";
+		return " placa=" + placa + ", modelo=" + modelo
+				+ ", marca=" + marca + ", ano=" + ano + "";
 	
 	}
 	
